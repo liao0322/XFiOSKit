@@ -1,22 +1,22 @@
 //
-//  XFHomeViewController.m
+//  XFMeViewController.m
 //  XFiOSKitDemo
 //
 //  Created by DamonLiao on 02/12/2016.
 //  Copyright © 2016 DamonLiao. All rights reserved.
 //
 
-#import "XFHomeViewController.h"
+#import "XFMeViewController.h"
 
-@interface XFHomeViewController ()
+@interface XFMeViewController ()
 
 @end
 
-@implementation XFHomeViewController
+@implementation XFMeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

@@ -19,6 +19,9 @@
 		FEA0819D1DF15FE200318CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA0819B1DF15FE200318CA5 /* LaunchScreen.storyboard */; };
 		FEA081B51DF160A400318CA5 /* XFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA081B11DF160A400318CA5 /* XFBaseViewController.m */; };
 		FEA081B91DF1610800318CA5 /* XFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA081B81DF1610800318CA5 /* XFHomeViewController.m */; };
+		FEA081BC1DF1658400318CA5 /* XFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA081BB1DF1658400318CA5 /* XFTabBarController.m */; };
+		FEA081C41DF165CE00318CA5 /* XFMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA081C31DF165CE00318CA5 /* XFMeViewController.m */; };
+		FEA081C71DF1673900318CA5 /* XFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA081C61DF1673900318CA5 /* XFNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,12 @@
 		FEA081B11DF160A400318CA5 /* XFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFBaseViewController.m; sourceTree = "<group>"; };
 		FEA081B71DF1610800318CA5 /* XFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFHomeViewController.h; sourceTree = "<group>"; };
 		FEA081B81DF1610800318CA5 /* XFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFHomeViewController.m; sourceTree = "<group>"; };
+		FEA081BA1DF1658400318CA5 /* XFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFTabBarController.h; sourceTree = "<group>"; };
+		FEA081BB1DF1658400318CA5 /* XFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFTabBarController.m; sourceTree = "<group>"; };
+		FEA081C21DF165CE00318CA5 /* XFMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFMeViewController.h; sourceTree = "<group>"; };
+		FEA081C31DF165CE00318CA5 /* XFMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFMeViewController.m; sourceTree = "<group>"; };
+		FEA081C51DF1673900318CA5 /* XFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFNavigationController.h; sourceTree = "<group>"; };
+		FEA081C61DF1673900318CA5 /* XFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,10 +201,10 @@
 		FEA0818D1DF15FD000318CA5 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				FEA0818E1DF15FD000318CA5 /* Base */,
 				FEA0818F1DF15FD000318CA5 /* Home */,
 				FEA081941DF15FD000318CA5 /* Me */,
 				FEA081951DF15FD000318CA5 /* Settings */,
+				FEA0818E1DF15FD000318CA5 /* Base */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -256,6 +265,11 @@
 		FEA081941DF15FD000318CA5 /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				FEA081BD1DF165B900318CA5 /* Controller */,
+				FEA081BE1DF165B900318CA5 /* Model */,
+				FEA081BF1DF165B900318CA5 /* Other */,
+				FEA081C01DF165B900318CA5 /* Service */,
+				FEA081C11DF165B900318CA5 /* View */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -378,6 +392,8 @@
 		FEA081A71DF15FFE00318CA5 /* NavBar */ = {
 			isa = PBXGroup;
 			children = (
+				FEA081C51DF1673900318CA5 /* XFNavigationController.h */,
+				FEA081C61DF1673900318CA5 /* XFNavigationController.m */,
 			);
 			path = NavBar;
 			sourceTree = "<group>";
@@ -385,6 +401,8 @@
 		FEA081A81DF15FFE00318CA5 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				FEA081BA1DF1658400318CA5 /* XFTabBarController.h */,
+				FEA081BB1DF1658400318CA5 /* XFTabBarController.m */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -445,6 +463,43 @@
 			children = (
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		FEA081BD1DF165B900318CA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEA081C21DF165CE00318CA5 /* XFMeViewController.h */,
+				FEA081C31DF165CE00318CA5 /* XFMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FEA081BE1DF165B900318CA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEA081BF1DF165B900318CA5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FEA081C01DF165B900318CA5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FEA081C11DF165B900318CA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -730,7 +785,10 @@
 			files = (
 				FE1267181DF13A5300BBDB14 /* main.m in Sources */,
 				FEA0818A1DF15F7A00318CA5 /* AppDelegate.m in Sources */,
+				FEA081C71DF1673900318CA5 /* XFNavigationController.m in Sources */,
 				FEA081B51DF160A400318CA5 /* XFBaseViewController.m in Sources */,
+				FEA081BC1DF1658400318CA5 /* XFTabBarController.m in Sources */,
+				FEA081C41DF165CE00318CA5 /* XFMeViewController.m in Sources */,
 				FEA081B91DF1610800318CA5 /* XFHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

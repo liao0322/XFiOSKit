@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "XFHomeViewController.h"
+#import "XFTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -19,9 +19,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    XFHomeViewController *homeVC = [[XFHomeViewController alloc] init];
+    XFTabBarController *tabBarController = [[XFTabBarController alloc] init];
     
-    self.window.rootViewController = homeVC;
+    self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
 }
