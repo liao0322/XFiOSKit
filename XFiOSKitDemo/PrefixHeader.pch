@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  XFiOSKitDemo
+//
+//  Created by DamonLiao on 02/12/2016.
+//  Copyright © 2016 DamonLiao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#import "UIColor+Extension.h"
+#import "UIColor+Project.h"
+#import "UIView+Rect.h"
+#import "UIButton+Create.h"
+#import "UIImage+Create.h"
+
+#import "XFColorDefine.h"
+
+#import "XFMacroSize.h"
+#import "XFMacroLog.h"
+#import "XFHTTPStatusDefine.h"
+
+#import <Masonry.h>
+#import "XFNetworking.h"
+#import <SVProgressHUD.h>
+
+
+
+#endif /* PrefixHeader_pch */

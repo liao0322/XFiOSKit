@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "XFTabBarController.h"
 
+
 @interface AppDelegate ()
 
 @end
@@ -17,10 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [XFNetworking startMonitoringNetwork];
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
     XFTabBarController *tabBarController = [[XFTabBarController alloc] init];
-    
     self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

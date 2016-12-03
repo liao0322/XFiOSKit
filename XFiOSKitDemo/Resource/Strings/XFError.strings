@@ -1,0 +1,54 @@
+/* 
+  XFError.strings
+  XFiOSKitDemo
+
+  Created by DamonLiao on 2016/12/3.
+  Copyright © 2016年 DamonLiao. All rights reserved.
+*/
+"ServerError" =         "服务器打盹了%>_<%";
+"NetworkError" =        "网络异常，请检查网络连接";
+"ServiceUnavailable" =  "服务器正在维护中";
+
+"EmptyContent" =        "内容不可为空";
+"EmptyMobile" =         "请输入手机号码";
+"EmptySMS" =            "请输入短信验证码";
+"EmptyPassword" =       "请输入密码";
+"PasswordTooShort" =    "密码过短";
+
+"CommentWordLimit" =    "评论过长，请限定于200字";
+
+"LocalBlockExceed" =    "屏蔽超过限制";
+
+"ReLogin" =             "请重新登录";
+"DeviceRegistered" =    "您的设备已注册过账号，请勿重复注册";
+
+"FrequentRequest" =     "请求过于频繁";
+"Forbidden" =           "请先认证校园身份";
+
+"Photo Removed" =       "该照片已删除";
+"Status Removed" =      "该状态已删除";
+
+
+"Nonactivated" =        "用户未激活";
+"EmailIllegal" =        "邮箱格式错误";
+"WrongSMSCode" =        "验证码错误";
+"MobileIllegal" =       "手机号格式错误";
+"PasswordIllegal" =     "密码格式错误";
+"ResourceNotFound" =    "资源不存在";
+
+"WrongPassword" =       "密码错误";
+"UserForbidden" =       "账号异常，请与service@simplr.cn联系";
+
+"UserCertified" =       "用户已认证";
+"UserCertifying" =      "正在审核中";
+"VerifyTooFrequent" =   "10分钟内只能提交一次验证哟,再耐心等等吧~";
+"UploadExceed" =        "文件上传超过限额";
+
+"Answered" =            "该问题已回答";
+"NotAnswered" =         "该问题未回答";
+
+"LBSDenied" =           "需要开启定位服务,请到设置->隐私,打开定位服务";
+"AssetsLibraryError" =  "需要开启相册服务,请到设置->隐私,打开照片服务";
+"FetchPhotoError" =     "获取照片异常";
+
+"FailedFetchConversation" = "创建会话异常";

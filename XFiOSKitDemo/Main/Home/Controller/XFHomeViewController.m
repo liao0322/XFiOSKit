@@ -8,6 +8,7 @@
 
 #import "XFHomeViewController.h"
 
+
 @interface XFHomeViewController ()
 
 @end
@@ -16,7 +17,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor colorViewBG];
+
+    
+    
+    [XFNetworking checkNetworkStatusWithBlock:^(XFNetworkStatus status) {
+        
+    }];
+    
+    // temp
+    UIButton *button = [UIButton buttonWithFrame:CGRectMake(200, 200, 100, 44) normalColor:[UIColor blueColor] title:@"aButton" cornerRadius:3.0f highlightedColor:[UIColor yellowColor] disabledColor:[UIColor grayColor]];
+    
+    
+
+    [self.view addSubview:button];
+    // [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
+    // [SVProgressHUD showWithStatus:@"a"];
+    
+}
+
+- (void)test {
+    NSLog(@"a");
 }
 
 - (void)didReceiveMemoryWarning {

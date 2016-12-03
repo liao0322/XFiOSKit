@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  XFiOSKitDemo
+
+  Created by DamonLiao on 2016/12/3.
+  Copyright © 2016年 DamonLiao. All rights reserved.
+*/
+"Complete" =    "完成";
+"Confirm" =     "确定";
+"Cancel" =      "取消";
+"Update" =      "更新";
+"Send" =        "发送";
+"Search" =      "搜索";
+"Hint" =        "提示";
+"Save" =        "保存";
+"Restore" =     "恢复默认";
+
+"Delete" =      "删除";
+"Confirm Delete" = "确认删除？";
+"Hide" =        "隐藏";
+
+"Connecting" =  "连接中";
+"NotConnect" =  "未连接";
+
+"Me" =          "我";
+"Male" =        "男";
+"Female" =      "女";
+
+"UpdateMsg" =   "发现新版本，是否前往更新";
+"NoUpdateMsg" = "已经是最新版本";
+"UpdateForce" = "此版本不可用，请前往更新";
+
+"NoMoreData" = "没有更多了~";
