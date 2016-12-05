@@ -19,6 +19,7 @@
 #import "UIView+Rect.h"
 #import "UIButton+Create.h"
 #import "UIImage+Create.h"
+#import "UIBarButtonItem+Create.h"
 
 #import "XFColorDefine.h"
 
@@ -29,6 +30,8 @@
 #import <Masonry.h>
 #import "XFNetworking.h"
 #import <SVProgressHUD.h>
+#import "XFConstThirdInfo.h"
+#import "XFMacroProperty.h"
 
 
 

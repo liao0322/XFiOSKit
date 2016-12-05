@@ -26,8 +26,8 @@
     tabBar.translucent = NO; // 取消tab bar透明
     
     // 去除tab bar顶部的边框
-    tabBar.backgroundImage = [[UIImage alloc] init];
-    tabBar.shadowImage = [[UIImage alloc] init];
+    // tabBar.backgroundImage = [[UIImage alloc] init];
+    // tabBar.shadowImage = [[UIImage alloc] init];
     
 }
 

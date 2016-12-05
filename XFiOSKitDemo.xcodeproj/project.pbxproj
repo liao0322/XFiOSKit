@@ -18,12 +18,24 @@
 		FE13C38F1DF2ADEB000E7D98 /* XFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C38E1DF2ADEB000E7D98 /* XFTabBar.m */; };
 		FE13C3991DF2B01B000E7D98 /* XFDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3981DF2B01B000E7D98 /* XFDiscoverViewController.m */; };
 		FE13C3A21DF2B1A2000E7D98 /* XFMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3A11DF2B1A2000E7D98 /* XFMessageViewController.m */; };
+		FE13C3B01DF31537000E7D98 /* UIBarButtonItem+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3AF1DF31537000E7D98 /* UIBarButtonItem+Create.m */; };
+		FE13C3B91DF4613E000E7D98 /* AppDelegate+ThirdSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3B81DF4613E000E7D98 /* AppDelegate+ThirdSetup.m */; };
+		FE13C3BB1DF5350E000E7D98 /* Home.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE13C3BA1DF5350E000E7D98 /* Home.strings */; };
+		FE13C3BD1DF535F3000E7D98 /* HomeRootData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE13C3BC1DF535F3000E7D98 /* HomeRootData.plist */; };
+		FE13C3C81DF54844000E7D98 /* XFConstThirdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3C71DF54844000E7D98 /* XFConstThirdInfo.m */; };
+		FE13C4061DF56BB7000E7D98 /* XFCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3E31DF56BB7000E7D98 /* XFCollectionViewController.m */; };
+		FE13C4071DF56BB7000E7D98 /* XFCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3E71DF56BB7000E7D98 /* XFCollectionViewFlowLayout.m */; };
+		FE13C4081DF56BB7000E7D98 /* XFCustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3ED1DF56BB7000E7D98 /* XFCustomTabBarViewController.m */; };
+		FE13C4091DF56BB7000E7D98 /* XFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3F51DF56BB7000E7D98 /* XFHomeViewController.m */; };
+		FE13C40A1DF56BB7000E7D98 /* HomeRootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3F81DF56BB7000E7D98 /* HomeRootModel.m */; };
+		FE13C40B1DF56BB7000E7D98 /* XFSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C3FF1DF56BB7000E7D98 /* XFSearchResultsViewController.m */; };
+		FE13C40C1DF56BB7000E7D98 /* XFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C4011DF56BB7000E7D98 /* XFSearchViewController.m */; };
+		FE13C40F1DF56C48000E7D98 /* XFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13C40E1DF56C48000E7D98 /* XFCollectionViewCell.m */; };
 		FEA0818A1DF15F7A00318CA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA081891DF15F7A00318CA5 /* AppDelegate.m */; };
 		FEA0818C1DF15FB600318CA5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEA0818B1DF15FB600318CA5 /* Info.plist */; };
 		FEA0819C1DF15FE200318CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA081981DF15FE200318CA5 /* Assets.xcassets */; };
 		FEA0819D1DF15FE200318CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA0819B1DF15FE200318CA5 /* LaunchScreen.storyboard */; };
 		FEA081B51DF160A400318CA5 /* XFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA081B11DF160A400318CA5 /* XFBaseViewController.m */; };
-		FEA081B91DF1610800318CA5 /* XFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA081B81DF1610800318CA5 /* XFHomeViewController.m */; };
 		FEA081C41DF165CE00318CA5 /* XFMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA081C31DF165CE00318CA5 /* XFMeViewController.m */; };
 		FEA081C71DF1673900318CA5 /* XFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA081C61DF1673900318CA5 /* XFNavigationController.m */; };
 		FEA081CB1DF1707500318CA5 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA081CA1DF1707500318CA5 /* UIColor+Extension.m */; };
@@ -87,6 +99,31 @@
 		FE13C3981DF2B01B000E7D98 /* XFDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFDiscoverViewController.m; sourceTree = "<group>"; };
 		FE13C3A01DF2B1A2000E7D98 /* XFMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFMessageViewController.h; sourceTree = "<group>"; };
 		FE13C3A11DF2B1A2000E7D98 /* XFMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFMessageViewController.m; sourceTree = "<group>"; };
+		FE13C3AE1DF31537000E7D98 /* UIBarButtonItem+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Create.h"; sourceTree = "<group>"; };
+		FE13C3AF1DF31537000E7D98 /* UIBarButtonItem+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Create.m"; sourceTree = "<group>"; };
+		FE13C3B71DF4613E000E7D98 /* AppDelegate+ThirdSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ThirdSetup.h"; sourceTree = "<group>"; };
+		FE13C3B81DF4613E000E7D98 /* AppDelegate+ThirdSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ThirdSetup.m"; sourceTree = "<group>"; };
+		FE13C3BA1DF5350E000E7D98 /* Home.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Home.strings; sourceTree = "<group>"; };
+		FE13C3BC1DF535F3000E7D98 /* HomeRootData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeRootData.plist; sourceTree = "<group>"; };
+		FE13C3C51DF54801000E7D98 /* XFMacroProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFMacroProperty.h; sourceTree = "<group>"; };
+		FE13C3C61DF54844000E7D98 /* XFConstThirdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFConstThirdInfo.h; sourceTree = "<group>"; };
+		FE13C3C71DF54844000E7D98 /* XFConstThirdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFConstThirdInfo.m; sourceTree = "<group>"; };
+		FE13C3E21DF56BB7000E7D98 /* XFCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFCollectionViewController.h; sourceTree = "<group>"; };
+		FE13C3E31DF56BB7000E7D98 /* XFCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFCollectionViewController.m; sourceTree = "<group>"; };
+		FE13C3E61DF56BB7000E7D98 /* XFCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		FE13C3E71DF56BB7000E7D98 /* XFCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		FE13C3EC1DF56BB7000E7D98 /* XFCustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFCustomTabBarViewController.h; sourceTree = "<group>"; };
+		FE13C3ED1DF56BB7000E7D98 /* XFCustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFCustomTabBarViewController.m; sourceTree = "<group>"; };
+		FE13C3F41DF56BB7000E7D98 /* XFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFHomeViewController.h; sourceTree = "<group>"; };
+		FE13C3F51DF56BB7000E7D98 /* XFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFHomeViewController.m; sourceTree = "<group>"; };
+		FE13C3F71DF56BB7000E7D98 /* HomeRootModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeRootModel.h; sourceTree = "<group>"; };
+		FE13C3F81DF56BB7000E7D98 /* HomeRootModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeRootModel.m; sourceTree = "<group>"; };
+		FE13C3FE1DF56BB7000E7D98 /* XFSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFSearchResultsViewController.h; sourceTree = "<group>"; };
+		FE13C3FF1DF56BB7000E7D98 /* XFSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFSearchResultsViewController.m; sourceTree = "<group>"; };
+		FE13C4001DF56BB7000E7D98 /* XFSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFSearchViewController.h; sourceTree = "<group>"; };
+		FE13C4011DF56BB7000E7D98 /* XFSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFSearchViewController.m; sourceTree = "<group>"; };
+		FE13C40D1DF56C48000E7D98 /* XFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFCollectionViewCell.h; sourceTree = "<group>"; };
+		FE13C40E1DF56C48000E7D98 /* XFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFCollectionViewCell.m; sourceTree = "<group>"; };
 		FEA081881DF15F7A00318CA5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEA081891DF15F7A00318CA5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FEA0818B1DF15FB600318CA5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
@@ -94,8 +131,6 @@
 		FEA0819B1DF15FE200318CA5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEA081B01DF160A400318CA5 /* XFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFBaseViewController.h; sourceTree = "<group>"; };
 		FEA081B11DF160A400318CA5 /* XFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFBaseViewController.m; sourceTree = "<group>"; };
-		FEA081B71DF1610800318CA5 /* XFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFHomeViewController.h; sourceTree = "<group>"; };
-		FEA081B81DF1610800318CA5 /* XFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFHomeViewController.m; sourceTree = "<group>"; };
 		FEA081C21DF165CE00318CA5 /* XFMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFMeViewController.h; sourceTree = "<group>"; };
 		FEA081C31DF165CE00318CA5 /* XFMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFMeViewController.m; sourceTree = "<group>"; };
 		FEA081C51DF1673900318CA5 /* XFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFNavigationController.h; sourceTree = "<group>"; };
@@ -368,11 +403,217 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FE13C3E01DF56BB7000E7D98 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FE13C3E11DF56BB7000E7D98 /* Controller */,
+				FE13C3E41DF56BB7000E7D98 /* Model */,
+				FE13C3E51DF56BB7000E7D98 /* Other */,
+				FE13C3E81DF56BB7000E7D98 /* Service */,
+				FE13C3E91DF56BB7000E7D98 /* View */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		FE13C3E11DF56BB7000E7D98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE13C3E21DF56BB7000E7D98 /* XFCollectionViewController.h */,
+				FE13C3E31DF56BB7000E7D98 /* XFCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE13C3E41DF56BB7000E7D98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE13C3E51DF56BB7000E7D98 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FE13C3E61DF56BB7000E7D98 /* XFCollectionViewFlowLayout.h */,
+				FE13C3E71DF56BB7000E7D98 /* XFCollectionViewFlowLayout.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FE13C3E81DF56BB7000E7D98 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FE13C3E91DF56BB7000E7D98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE13C40D1DF56C48000E7D98 /* XFCollectionViewCell.h */,
+				FE13C40E1DF56C48000E7D98 /* XFCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE13C3EA1DF56BB7000E7D98 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FE13C3EB1DF56BB7000E7D98 /* Controller */,
+				FE13C3EE1DF56BB7000E7D98 /* Model */,
+				FE13C3EF1DF56BB7000E7D98 /* Other */,
+				FE13C3F01DF56BB7000E7D98 /* Service */,
+				FE13C3F11DF56BB7000E7D98 /* View */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		FE13C3EB1DF56BB7000E7D98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE13C3EC1DF56BB7000E7D98 /* XFCustomTabBarViewController.h */,
+				FE13C3ED1DF56BB7000E7D98 /* XFCustomTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE13C3EE1DF56BB7000E7D98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE13C3EF1DF56BB7000E7D98 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FE13C3F01DF56BB7000E7D98 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FE13C3F11DF56BB7000E7D98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE13C3F21DF56BB7000E7D98 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				FE13C3F31DF56BB7000E7D98 /* Controller */,
+				FE13C3F61DF56BB7000E7D98 /* Model */,
+				FE13C3F91DF56BB7000E7D98 /* Other */,
+				FE13C3FA1DF56BB7000E7D98 /* Service */,
+				FE13C3FB1DF56BB7000E7D98 /* View */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		FE13C3F31DF56BB7000E7D98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE13C3F41DF56BB7000E7D98 /* XFHomeViewController.h */,
+				FE13C3F51DF56BB7000E7D98 /* XFHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE13C3F61DF56BB7000E7D98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE13C3F71DF56BB7000E7D98 /* HomeRootModel.h */,
+				FE13C3F81DF56BB7000E7D98 /* HomeRootModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE13C3F91DF56BB7000E7D98 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FE13C3FA1DF56BB7000E7D98 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FE13C3FB1DF56BB7000E7D98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE13C3FC1DF56BB7000E7D98 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FE13C3FD1DF56BB7000E7D98 /* Controller */,
+				FE13C4021DF56BB7000E7D98 /* Model */,
+				FE13C4031DF56BB7000E7D98 /* Other */,
+				FE13C4041DF56BB7000E7D98 /* Service */,
+				FE13C4051DF56BB7000E7D98 /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		FE13C3FD1DF56BB7000E7D98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE13C3FE1DF56BB7000E7D98 /* XFSearchResultsViewController.h */,
+				FE13C3FF1DF56BB7000E7D98 /* XFSearchResultsViewController.m */,
+				FE13C4001DF56BB7000E7D98 /* XFSearchViewController.h */,
+				FE13C4011DF56BB7000E7D98 /* XFSearchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE13C4021DF56BB7000E7D98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE13C4031DF56BB7000E7D98 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FE13C4041DF56BB7000E7D98 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FE13C4051DF56BB7000E7D98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FEA081871DF15F7A00318CA5 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				FEA081881DF15F7A00318CA5 /* AppDelegate.h */,
 				FEA081891DF15F7A00318CA5 /* AppDelegate.m */,
+				FE13C3B71DF4613E000E7D98 /* AppDelegate+ThirdSetup.h */,
+				FE13C3B81DF4613E000E7D98 /* AppDelegate+ThirdSetup.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -405,43 +646,12 @@
 		FEA0818F1DF15FD000318CA5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				FEA081901DF15FD000318CA5 /* Controller */,
-				FEA081911DF15FD000318CA5 /* Model */,
-				FEA081921DF15FD000318CA5 /* Other */,
-				FEA081B61DF160EE00318CA5 /* Service */,
-				FEA081931DF15FD000318CA5 /* View */,
+				FE13C3E01DF56BB7000E7D98 /* CollectionView */,
+				FE13C3EA1DF56BB7000E7D98 /* CustomTabBar */,
+				FE13C3F21DF56BB7000E7D98 /* Root */,
+				FE13C3FC1DF56BB7000E7D98 /* Search */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		FEA081901DF15FD000318CA5 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				FEA081B71DF1610800318CA5 /* XFHomeViewController.h */,
-				FEA081B81DF1610800318CA5 /* XFHomeViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		FEA081911DF15FD000318CA5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FEA081921DF15FD000318CA5 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		FEA081931DF15FD000318CA5 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		FEA081941DF15FD000318CA5 /* Me */ = {
@@ -486,6 +696,7 @@
 			isa = PBXGroup;
 			children = (
 				FEA0818B1DF15FB600318CA5 /* Info.plist */,
+				FE13C3BC1DF535F3000E7D98 /* HomeRootData.plist */,
 			);
 			path = Plist;
 			sourceTree = "<group>";
@@ -508,10 +719,10 @@
 		FEA0819F1DF15FFE00318CA5 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				FEA081A31DF15FFE00318CA5 /* Define */,
 				FEA081A01DF15FFE00318CA5 /* Cache */,
 				FEA081A11DF15FFE00318CA5 /* Category */,
 				FEA081A21DF15FFE00318CA5 /* DataBase */,
-				FEA081A31DF15FFE00318CA5 /* Define */,
 				FEA081A61DF15FFE00318CA5 /* Global */,
 				FEA081A91DF15FFE00318CA5 /* Network */,
 				FEA081AA1DF15FFE00318CA5 /* Tool */,
@@ -535,6 +746,8 @@
 				FEA081D31DF1ABE100318CA5 /* UIView */,
 				FEA081CE1DF1A7E000318CA5 /* UIButton */,
 				FEA081C81DF1705500318CA5 /* UIColor */,
+				FE13C3AE1DF31537000E7D98 /* UIBarButtonItem+Create.h */,
+				FE13C3AF1DF31537000E7D98 /* UIBarButtonItem+Create.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -560,6 +773,8 @@
 		FEA081A41DF15FFE00318CA5 /* Const */ = {
 			isa = PBXGroup;
 			children = (
+				FE13C3C61DF54844000E7D98 /* XFConstThirdInfo.h */,
+				FE13C3C71DF54844000E7D98 /* XFConstThirdInfo.m */,
 			);
 			path = Const;
 			sourceTree = "<group>";
@@ -569,6 +784,7 @@
 			children = (
 				FEA081D21DF1AA6400318CA5 /* XFMacroSize.h */,
 				FEA081F01DF2709500318CA5 /* XFMacroLog.h */,
+				FE13C3C51DF54801000E7D98 /* XFMacroProperty.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -653,13 +869,6 @@
 			children = (
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		FEA081B61DF160EE00318CA5 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 		FEA081BD1DF165B900318CA5 /* Controller */ = {
@@ -784,6 +993,7 @@
 			children = (
 				FEA082081DF278F600318CA5 /* Localizable.strings */,
 				FEA0820A1DF2797400318CA5 /* XFError.strings */,
+				FE13C3BA1DF5350E000E7D98 /* Home.strings */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -865,6 +1075,7 @@
 				TargetAttributes = {
 					FE1267121DF13A5300BBDB14 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QUP3N2G398;
 						ProvisioningStyle = Automatic;
 					};
 					FE12672B1DF13A5300BBDB14 = {
@@ -904,11 +1115,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE13C3BD1DF535F3000E7D98 /* HomeRootData.plist in Resources */,
 				FEA0819D1DF15FE200318CA5 /* LaunchScreen.storyboard in Resources */,
 				FEA082091DF278F600318CA5 /* Localizable.strings in Resources */,
 				FEA0819C1DF15FE200318CA5 /* Assets.xcassets in Resources */,
 				FEA0818C1DF15FB600318CA5 /* Info.plist in Resources */,
 				FEA0820B1DF2797400318CA5 /* XFError.strings in Resources */,
+				FE13C3BB1DF5350E000E7D98 /* Home.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1071,28 +1284,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE13C4061DF56BB7000E7D98 /* XFCollectionViewController.m in Sources */,
 				FEA081EE1DF25EB200318CA5 /* NSObject+Ext.m in Sources */,
+				FE13C40B1DF56BB7000E7D98 /* XFSearchResultsViewController.m in Sources */,
 				FE1267181DF13A5300BBDB14 /* main.m in Sources */,
 				FEA081E91DF2595200318CA5 /* PropertyListParser.m in Sources */,
 				FEA0818A1DF15F7A00318CA5 /* AppDelegate.m in Sources */,
+				FE13C40C1DF56BB7000E7D98 /* XFSearchViewController.m in Sources */,
+				FE13C3C81DF54844000E7D98 /* XFConstThirdInfo.m in Sources */,
 				FEA081D61DF1AC0400318CA5 /* UIView+Rect.m in Sources */,
 				FEA081DF1DF1B70200318CA5 /* UIImage+Create.m in Sources */,
 				FEA081D91DF1AD6000318CA5 /* UIButton+EnlargeEdge.m in Sources */,
+				FE13C4091DF56BB7000E7D98 /* XFHomeViewController.m in Sources */,
 				FE13C38F1DF2ADEB000E7D98 /* XFTabBar.m in Sources */,
 				FE13C3871DF28692000E7D98 /* UIColor+Project.m in Sources */,
 				FEA081D11DF1A81500318CA5 /* UIButton+Create.m in Sources */,
 				FEA081C71DF1673900318CA5 /* XFNavigationController.m in Sources */,
 				FEA081CB1DF1707500318CA5 /* UIColor+Extension.m in Sources */,
+				FE13C4071DF56BB7000E7D98 /* XFCollectionViewFlowLayout.m in Sources */,
 				FE13C3A21DF2B1A2000E7D98 /* XFMessageViewController.m in Sources */,
 				FEA081B51DF160A400318CA5 /* XFBaseViewController.m in Sources */,
+				FE13C4081DF56BB7000E7D98 /* XFCustomTabBarViewController.m in Sources */,
 				FEA081EA1DF2595200318CA5 /* TreeNode.m in Sources */,
 				FE13C38C1DF2ADCB000E7D98 /* XFTabBarController.m in Sources */,
 				FEA081C41DF165CE00318CA5 /* XFMeViewController.m in Sources */,
+				FE13C40F1DF56C48000E7D98 /* XFCollectionViewCell.m in Sources */,
+				FE13C40A1DF56BB7000E7D98 /* HomeRootModel.m in Sources */,
 				FEA081E31DF2586D00318CA5 /* XFNetworking.m in Sources */,
-				FEA081B91DF1610800318CA5 /* XFHomeViewController.m in Sources */,
 				FEA081F71DF272DC00318CA5 /* JDError.m in Sources */,
 				FEA081F41DF2726100318CA5 /* XFError.m in Sources */,
+				FE13C3B01DF31537000E7D98 /* UIBarButtonItem+Create.m in Sources */,
 				FEA081DB1DF1AE0600318CA5 /* Foundation+Log.m in Sources */,
+				FE13C3B91DF4613E000E7D98 /* AppDelegate+ThirdSetup.m in Sources */,
 				FE13C3991DF2B01B000E7D98 /* XFDiscoverViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1222,7 +1445,7 @@
 			baseConfigurationReference = 68BBA313059DD3943E020D1B /* Pods-XFiOSKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QUP3N2G398;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XFiOSKitDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = XFiOSKitDemo/Info.plist;
@@ -1238,7 +1461,7 @@
 			baseConfigurationReference = 3AC9154C45616908D543C9FC /* Pods-XFiOSKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QUP3N2G398;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XFiOSKitDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = XFiOSKitDemo/Info.plist;

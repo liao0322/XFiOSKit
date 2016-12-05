@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDelegate+ThirdSetup.h"
 #import "XFTabBarController.h"
 
 
@@ -18,6 +19,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    [self setupThirdService];
     
     [XFNetworking startMonitoringNetwork];
     
@@ -55,5 +59,15 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - Private 
 
+/// 配置集成第三方服务
+- (void)setupThirdService {
+    // 配置友盟统计
+    [self setupUMengAnalytics];
+}
+
++ (AppDelegate *)appDelegate {
+    return (AppDelegate *)[UIApplication sharedApplication].delegate;
+}
 @end

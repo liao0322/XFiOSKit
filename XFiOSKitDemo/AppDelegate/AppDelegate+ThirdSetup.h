@@ -10,4 +10,7 @@
 
 @interface AppDelegate (ThirdSetup)
 
+/// 配置友盟统计
+- (void)setupUMengAnalytics;
+
 @end

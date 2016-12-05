@@ -12,4 +12,13 @@
 
 @interface XFBaseViewController : UIViewController
 
+/// 创建UI前初始化成员变量数据
+- (void)initialization;
+
+/// 配置导航栏
+- (void)setupNavigationBar;
+
+/// 添加子控件
+- (void)addSubviews;
+
 @end

@@ -8,14 +8,17 @@
 
 #import "XFNavigationController.h"
 
-@interface XFNavigationController ()
+@interface XFNavigationController ()<UINavigationControllerDelegate>
+
+@property (nonatomic, strong) id popGesture;
+
+@property (nonatomic, getter=isPushing) BOOL pushing;
 
 @end
 
 @implementation XFNavigationController
 
 + (void)initialize {
-    
     
     UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[XFNavigationController class]]];
     
@@ -31,11 +34,16 @@
     // 设置底部阴影
     [navBar setShadowImage:[UIImage imageNamed:@"navigation_bar_bg"]];
     
+    navBar.tintColor = [UIColor colorDomina];
+    
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.popGesture = self.interactivePopGestureRecognizer.delegate;
+    self.delegate = self;
+    self.navigationItem.hidesBackButton = YES;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,5 +52,47 @@
 }
 
 
+
+#pragma mark - Override
+
+// 自定义返回按钮样式
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    
+    if (self.pushing == YES) {
+        NSLog(@"被拦截");
+        return;
+    } else {
+        NSLog(@"push");
+        self.pushing = YES;
+    }
+
+    
+    if (self.viewControllers.count != 0) {
+        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"navigationButtonReturn"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+        
+        [viewController setHidesBottomBarWhenPushed:YES];
+    }
+    
+    [super pushViewController:viewController animated:animated];
+}
+
+#pragma mark - Private
+
+- (void)back {
+    [self popViewControllerAnimated:YES];
+}
+
+#pragma mark - UINavigationControllerDelegate
+// 当控制器显示完毕的时候调用
+- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    self.pushing = NO;
+    
+    if (self.viewControllers[0] == viewController) {
+        self.interactivePopGestureRecognizer.delegate  = self.popGesture;
+        
+    }else{
+        self.interactivePopGestureRecognizer.delegate = nil;
+    }
+}
 
 @end

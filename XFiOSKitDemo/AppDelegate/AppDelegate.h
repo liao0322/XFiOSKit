@@ -12,6 +12,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
+/// 获取App的代理
++ (AppDelegate *)appDelegate;
 @end
 
